@@ -31,7 +31,7 @@
 		}
 
 		.navMenu a {
-			color: #272727;
+			color: #8A84E2;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -49,7 +49,7 @@
 
 		.navMenu a:hover {
 
-			color: #d09c0b;
+			color: #FF7CBF;
 		}
 	</style>
 </head>
@@ -58,18 +58,19 @@
 
 	<nav class="navMenu  border">
 		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
-		<a id="inbox" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Inbox</a>
-		<a id="week" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Planner</a>
-		<a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Projects</a>
-		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> Tasks</a>
-		<a id="business" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Business</a>
+		<a id="weekly" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Weekly</a>
+		<a id="books" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book-open"></i> Books</a>
+		<a id="code" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-code"></i> Code</a>
+		<a id="d&d" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-d-and-d"></i> D&D</a>
+		<a id="miscellaneous" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-plus"></i> Miscellaneous</a>
+		<!---
 		<a id="knowledge" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-lightbulb"></i> Knowledge</a>
 		<a id="topics" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-layer-group"></i> Topics</a>
 		<a id="notes" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Notes</a>
 		<a id="media" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bookmark"></i> Media</a>
 		<a id="resourses" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-wrench"></i> Resourses</a>
 		<a id="lifewiki" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-heart"></i> Lifewiki</a>
-
+-->
 
 
 	</nav>
@@ -87,15 +88,15 @@
 
 			if (id == 'home')
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "inbox")
+			else if (id == "weekly")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "week")
+			else if (id == "books")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "month")
+			else if (id == "code")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "projects")
+			else if (id == "d&d")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "business")
+			else if (id == "miscellaneous")
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "tasks")
 				window.open("https://example.com", '_blank').focus();
